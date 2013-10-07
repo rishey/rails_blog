@@ -1,3 +1,24 @@
+UNABLE TO DEPLOY:
+       Gem files will remain installed in /tmp/build_620e1df2-3b4a-41ea-949f-da9aa6486b12/vendor/bundle/ruby/2.0.0/gems/sqlite3-1.3.8 for inspection.
+       Results logged to /tmp/build_620e1df2-3b4a-41ea-949f-da9aa6486b12/vendor/bundle/ruby/2.0.0/gems/sqlite3-1.3.8/ext/sqlite3/gem_make.out
+       An error occurred while installing sqlite3 (1.3.8), and Bundler cannot continue.
+       Make sure that `gem install sqlite3 -v '1.3.8'` succeeds before bundling.
+ !
+ !     Failed to install gems via Bundler.
+ !     
+ !     Detected sqlite3 gem which is not supported on Heroku.
+ !     https://devcenter.heroku.com/articles/sqlite3
+ !
+
+ !     Push rejected, failed to compile Ruby/Rails app
+
+To git@heroku.com:infinite-lowlands-1859.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'git@heroku.com:infinite-lowlands-1859.git'
+: /blog (master) $ 
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
